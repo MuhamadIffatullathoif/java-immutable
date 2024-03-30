@@ -1,4 +1,4 @@
-package org.faqih.generic;
+package org.iffat.final_explored.generic;
 
 import org.iffat.final_explored.generic.BaseClass;
 

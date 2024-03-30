@@ -1,5 +1,6 @@
-package org.faqih.generic;
+package org.iffat.final_explored.generic;
 
+import org.iffat.final_explored.generic.ChildClass;
 import org.iffat.final_explored.generic.BaseClass;
 
 public class Main {
@@ -31,6 +32,12 @@ public class Main {
         doXYZ(xArgument, 16, zArgument);
         System.out.println("After method: xArgument: " + xArgument);
         System.out.println("After method: zArgument: " + xArgument);
+
+        StringBuilder tracker = new StringBuilder("Step 1 is abc");
+        Logger.logToConsole(tracker.toString());
+        tracker.append(", Step 2 is xyz.");
+        Logger.logToConsole(tracker.toString());
+        System.out.println("After logging, tracker = " + tracker);
     }
 
     private static void doXYZ(String x, int y, final StringBuilder z) {
