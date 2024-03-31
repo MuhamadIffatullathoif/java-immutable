@@ -1,4 +1,4 @@
-package org.iffat.immutable_challenge;
+package org.iffat.immutable_challenge.bank;
 
 import java.util.ArrayList;
 import java.util.Arrays;

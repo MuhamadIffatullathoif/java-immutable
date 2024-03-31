@@ -1,4 +1,4 @@
-package org.iffat.immutable_challenge;
+package org.iffat.immutable_challenge.dto;
 
 public class Transaction {
     private int routingNumber;
